@@ -1,0 +1,24 @@
+function createHourLongCalendarEvent(title, startDatetime) {
+  const eventName = typeof title === 'string' ? title : 'My event';
+  const startDate = typeof startDatetime === 'string' ? new Date(startDatetime) : new Date();
+  const endTime = addHoursToDate(startDate, 1);
+
+  const sheet = SpreadsheetApp.openById('1zzUhMKPwwoLe99KGUjN5r4YOK92E1A_AFmL2zPCfLfk').getSheetByName('Sheet1');
+
+  // Format dates to ISO strings
+  const startDateString = startDate.toISOString();
+  const endDateString = endTime.toISOString();
+
+  // Append the new event to the sheet
+  sheet.appendRow([eventName, startDateString, endDateString]);
+
+  console.log('Added event to sheet');
+}
+
+function addHoursToDate(startingDate, hours) {
+  var newDate = new Date(startingDate.getTime());
+  newDate.setHours(newDate.getHours() + hours);
+  return newDate;
+}
+
+
