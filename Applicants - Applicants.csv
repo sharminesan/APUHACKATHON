@@ -1,6 +1,4 @@
 Row ID,Id,Name,Phone Number,Email,Applied Job Position,Skills LIST,Date Joining,Cover Letter,Resume,Date Applied,Status
-,,,,,,,,,,,
-,,,,,,,,,,,
 JZSH5YCF4YI67HUZYIOSDK,34e36d99-685d-4685-a47d-3c1e22f670d9,Name 3,555-555-2475,person_3@example.com,Applied Job Position 89,Skills LIST 99,7/7/2024,Cover Letter 83,Resume 29,7/7/2024,INTERVIEWING
 JZSH542F4YI67HUZYIOSDK,cb9a0acb-0bc9-4825-94a4-26eb325eba53,Name 4,555-555-2476,person_4@example.com,Applied Job Position 90,Skills LIST 100,7/7/2024,Cover Letter 84,Resume 30,7/7/2024,PENDING
 JZSH6BKF4YI67HUZYIOSDK,8f91da9c-1039-43ac-8423-1f6e2460868d,Name 5,555-555-2477,person_5@example.com,Applied Job Position 91,Skills LIST 101,7/7/2024,Cover Letter 85,Resume 31,7/7/2024,PENDING
